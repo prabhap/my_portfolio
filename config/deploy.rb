@@ -32,7 +32,7 @@ set :repo_url, 'git@github.com:prabhap/my_portfolio.git'
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
-
+set :default_env, { rvm_bin_path: '~/.rvm/bin' }
 namespace :deploy do
 
   desc 'Restart application'

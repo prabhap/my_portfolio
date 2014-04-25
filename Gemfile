@@ -27,7 +27,8 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 gem 'capistrano', '~> 3.1.0'
-gem 'capistrano-bundler', '~> 1.1.2'
+gem 'capistrano-bundler'
+gem 'capistrano-rvm'
 gem 'passenger' 
 
 group :doc do
